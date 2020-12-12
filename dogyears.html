@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dog Years calculator</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+   <script src="dogyears.js"></script>
+   <link rel="stylesheet" type="text/css" href="dogyears.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="background">
+<h1 class="heading">Dog Age Calculator</h1>
+ <div class="image1">
+  <img src="dog2.gif">
+</div>
+<div class="form">
+   <form method="post" id="form" onsubmit="return convert()">
+   	   <div style="text-align: center;">
+   	   	  <label for="humanAge" style="font-size:25px;"><b>Human Age:</b></label>
+   	   	  <input class="box" type="text"  name="humanage" id="humanage" placeholder="YY">
+   	   	  <label for="months"style="font-size:25px;"><b>Months</b></label>
+   	   	  <select id="months" class="box">
+               <option value="0">0</option>
+   	   	  	<option value="1">1</option>
+   	   	  	<option value="2">2</option>
+   	   	  	<option value="3">3</option>
+   	   	  	<option value="4">4</option>
+   	   	  	<option value="5">5</option>
+   	   	  	<option value="6">6</option>
+   	   	  	<option value="7">7</option>
+   	   	  	<option value="8">8</option>
+   	   	  	<option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+   	   	  	<option value="12">12</option>
+   	   	  	 </select>
+
+   	   	   <button class="box" type="submit" style="font-size:15px;" ><b>Calculate</b></button>
+   	   </div>
+   	   
+   </form>
+ </div>
+   <div class="box1">            
+              <p id="display" style="font-family: 'Lobster', cursive; font-size: 30px;"></p>
+               <p id="dogage" style="font-size: 25px; font-weight:bold;" ></p>  
+         </div>
+
+
+<!-- <div style="padding: 100px;">
+  <img src="dog1.gif">
+ </div> -->
+
+</body>
+</html>

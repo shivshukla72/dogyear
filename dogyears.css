@@ -1,0 +1,28 @@
+.background
+{     height: 100vh;
+	  background: linear-gradient(to bottom, #33ccff 0%, #99ffcc 100%);
+}
+.heading
+{
+	font-family: 'Sansita Swashed', cursive;
+	text-align: center;
+	font-size: 44px;
+}
+
+.image1
+{
+	padding-left: 35%;
+	padding-right: 35%;
+}
+.box
+{
+	padding: 0.8%;
+	border-radius: 5px;
+	border-style: none;
+	background-color:white;
+}
+.box1
+{
+   text-align: center;
+   margin: 0.8%;
+}
